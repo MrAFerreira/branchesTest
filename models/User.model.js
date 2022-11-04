@@ -9,7 +9,7 @@ const userSchema = new Schema(
       unique: true,
       trim: true,
     },
-    email: {
+    longCat: {
       type: String,
       required: true,
       unique: true,
