@@ -56,6 +56,8 @@ router.post('/signup', isLoggedOut, (req, res) => {
   */
 
   // Create a new user - start by hashing the password
+
+  //PR test
   bcrypt
     .genSalt(saltRounds)
     .then((salt) => bcrypt.hash(password, salt))
